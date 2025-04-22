@@ -1,38 +1,69 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Natos - Radar de Artistas",
-  description: "Natos - Radar de Artistas é uma aplicação web que permite a visualização de informações sobre artistas musicais.",
+  name: "Next.js + HeroUI",
+  description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
-      label: "Início",
+      label: "Home",
       href: "/",
     },
     {
-      label: "Gráficos",
-      href: "/graficos",
+      label: "Docs",
+      href: "/docs",
     },
     {
-      label: "Artístas",
-      href: "/artistas",
+      label: "Pricing",
+      href: "/pricing",
+    },
+    {
+      label: "Blog",
+      href: "/blog",
+    },
+    {
+      label: "About",
+      href: "/about",
     },
   ],
   navMenuItems: [
     {
-      label: "Início",
-      href: "/",
+      label: "Profile",
+      href: "/profile",
     },
     {
-      label: "Gráficos",
-      href: "/graficos",
+      label: "Dashboard",
+      href: "/dashboard",
     },
     {
-      label: "Artístas",
-      href: "/artistas",
+      label: "Projects",
+      href: "/projects",
+    },
+    {
+      label: "Team",
+      href: "/team",
+    },
+    {
+      label: "Calendar",
+      href: "/calendar",
+    },
+    {
+      label: "Settings",
+      href: "/settings",
+    },
+    {
+      label: "Help & Feedback",
+      href: "/help-feedback",
+    },
+    {
+      label: "Logout",
+      href: "/logout",
     },
   ],
   links: {
-    github: "https://github.com/NonattoDev/natos-artists-tracker",
-    instagram: "https://www.instagram.com/natosentretenimento/",
+    github: "https://github.com/heroui-inc/heroui",
+    twitter: "https://twitter.com/hero_ui",
+    docs: "https://heroui.com",
+    discord: "https://discord.gg/9b6yyZKmH4",
+    sponsor: "https://patreon.com/jrgarciadev",
   },
 };
